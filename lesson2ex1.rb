@@ -13,7 +13,5 @@ months = { "september" => 31,
 }
 
 months.each do |x,y|
-  if y == 30
-    puts x
+  puts x if y == 30
   end
-end
